@@ -1,0 +1,135 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+
+} */
+.top{
+    position: relative;
+    width: 1440px; 
+    height: 592px; 
+    
+    background-color: #1F4482;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.bottom{
+    width: 1440px;
+    height: 298px;
+    background-color: #282828;
+    
+    
+}
+
+
+.frame1{
+    position: absolute;
+    height: 90;
+    width: 562px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 90px;
+    letter-spacing: -3%;
+    top: 100px;
+    left:136px;
+    bottom: 402px;
+    right: 742px;
+}
+.frame2{
+    height: 81;
+    width: 495px;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    position: absolute;
+    bottom: 291px;
+    right: 809px;
+    left: 136px;
+    top: 220px;
+
+}
+
+.frame3{
+    position: absolute;
+    height: 51;
+    width: 344;
+    font-family: 'Inter', sans-serif;
+    color: white    ;
+    left: 134px;
+    top: 480px;
+    bottom: 51px;
+    right: 962px;
+}
+
+
+.box{
+    background-color: white;
+    border-radius: 8px;
+    width: 344px;
+    height: 64px;
+    position: relative;
+    top: 412px;
+    bottom: 116px;
+    right: 960px;
+    left: 134px;
+    height: 51;
+    width: 344;
+    font-family: 'Inter', sans-serif;
+    color: #888888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box2{
+    
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color:  #282828;
+    border-radius: 8px;
+    color: white;
+   
+    width: 216px;
+    height: 64px;
+    left: 496px;
+    top: 412px;
+    bottom: 116px;
+    right: 728px;
+}
+
+.top2{
+    display: flex;
+    justify-content: top;
+    align-self: center;
+    color: coral;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+.frameemail{
+    position: absolute;
+    display: flex;
+   text-align: left;
+   top: -40px;
+   left: 0px;
+   
+
+}
